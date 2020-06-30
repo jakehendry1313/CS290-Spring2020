@@ -1,0 +1,31 @@
+body{
+  background-color: darkcyan;
+}
+
+.photo-gallery{
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px white;
+}
+
+.fourth{
+    float: left;
+}
+
+.reference{
+    color: white;
+    padding: 14px 16px;
+    margin-left: 150px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer{
+	text-align: center;
+}
+
+.photo-title{
+	text-align: center;
+    text-shadow: 2px 2px 4px white;
+}

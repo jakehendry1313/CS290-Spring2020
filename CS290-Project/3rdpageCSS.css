@@ -1,0 +1,64 @@
+body{
+  background-color: darkcyan;
+}
+
+.tips-tricks-menu{
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px white;
+}
+
+.third{
+    float: left;
+}
+
+.reference{
+    color: white;
+    padding: 14px 16px;
+    margin-left: 150px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tips-title, .paragraph-title, .form-title, .baloo-toys{
+  text-align: center;
+}
+
+.tips-title{
+  text-shadow: 2px 2px 4px white;
+}
+
+.span1{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  background-color: gainsboro;
+  border-left: 2px black solid;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+.span2{
+  position: absolute;
+  right: 300px;
+  top: 200px;
+  padding-right: 10px;
+  background-color: gainsboro;
+  border-right: 2px black solid;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+
+.baloo5{
+  position: absolute;
+  right: 25px;
+}
+
+.form1{
+  background-color: gainsboro;
+  margin-bottom: 20px;
+}
+
+.input{
+  background-color: black;
+}

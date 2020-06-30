@@ -1,0 +1,89 @@
+body{
+    background-color: darkcyan;
+}
+
+.homepage{
+    background-color: #333;
+    margin-top: -135px;
+    overflow: hidden;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px white;
+}
+
+.home{
+    float: left;
+}
+
+.reference{
+    color: white;
+    padding: 14px 16px;
+    margin-left: 150px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.text-wrapper{
+    position: relative;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px black solid;
+    top: -225px;
+    text-shadow: 2px 2px 4px lightgrey;
+}
+
+.hi-friend, .footer{
+    text-align: center;
+}
+
+.baloo{
+    position: relative;
+    margin-left: 100px;
+    top: 30px;
+}
+
+.baloo-text{
+    position: relative;
+    margin-left: 400px;
+    top: -175px;
+}
+
+.facts-title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.fact-list{
+    position: relative;
+    margin-left: 150px;
+}
+
+.slideshow-wrapper{
+    position: relative;
+    background-color: gainsboro;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: auto;
+    max-width: 900px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.previous, .next{
+    position: absolute;
+    font-size: 36px;
+    margin-top: -50px;
+    width: auto;
+    padding: 25px;
+    top: 50%;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+}
+
+.next:hover, .previous:hover{
+    background-image: none;
+    background-color: #333;
+}

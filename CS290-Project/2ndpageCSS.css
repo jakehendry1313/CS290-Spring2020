@@ -1,0 +1,36 @@
+body{
+  background-color: darkcyan;
+}
+
+.history-menu{
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px white;
+}
+
+.second{
+    float: left;
+}
+
+.reference{
+    color: white;
+    padding: 14px 16px;
+    margin-left: 150px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.history-title, .pictures1{
+	text-align: center;
+    text-shadow: 2px 2px 4px white;
+}
+
+.history-paragraph1, .history-paragraph2, .moreInfo{
+	margin: 20px;
+	border: 2px black solid;
+	text-align: center;
+	width: 75%;
+	margin-left: 150px;
+	background-color: gainsboro;
+}
