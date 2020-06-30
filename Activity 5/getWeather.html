@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Search Current Weather - Activity 5</title>
+</head>
+<body style="background-color: lightblue">
+	<form>
+		<h1>Current Weather</h1>
+		<h2>Input</h2>
+		<p><b>Instructions:</b> <i>Enter a city AND a country code OR a zip code AND a country code.</i></p>
+		<fieldset>
+			<label for="city">City
+				<input type="text" name="city" id="city" size="30">
+			</label>
+			<label for="zip">Zip Code
+				<input type="text" name="zip" id="zip" size="10">
+			</label>
+			<label for="country">Country Code
+				<input type="text" name="country" id="country" size="5">
+			</label>
+			<input type="submit" name="nameSubmit" id="nameSubmit">
+		</fieldset>
+	</form>
+
+	<h2>Output</h2>
+
+	<div>
+		<span><b>City: </b></span>
+		<span id="cityResults">---</span>
+		<br />
+		<span><b>Temperature: </b></span>
+		<span id="tempResults">---</span>
+		<br />
+		<span><b>Humidity: </b></span>
+		<span id="humidResults">---</span>
+	</div>
+
+	<script src="getWeather.js"></script>
+</body>
+</html>
